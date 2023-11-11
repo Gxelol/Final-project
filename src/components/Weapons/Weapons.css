@@ -1,0 +1,53 @@
+.weapons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 100px;
+  width: 80vw;
+  height: 180vh;
+  gap: 20px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.weapons::-webkit-scrollbar {
+  display: none;
+}
+
+.weapons__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 535px;
+  height: 420px;
+  background: #ece8e1;
+  color: #111111;
+  position: relative;
+  transition: 300ms ease-in-out;
+}
+
+.weapons__container:hover {
+  background: var(--mainColor);
+  color: white;
+}
+
+.weapons__name {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 5%;
+}
+
+.weapons__image {
+  object-fit: contain;
+  position: absolute;
+  width: 520px;
+  height: 180px;
+  top: 33%;
+}
+
+.weapons__category {
+  font-size: 36px;
+  font-weight: bold;
+  opacity: 0.6;
+  margin: 5% 5% 5% 63%;
+}

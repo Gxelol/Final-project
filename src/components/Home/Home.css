@@ -1,0 +1,44 @@
+.home {
+  color: #ffffff;
+  padding-top: 10%;
+}
+
+.home__title {
+  font-size: 90px;
+}
+
+.home__text {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.home__content-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+
+.home__content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
+
+.home__image-container {
+  display: flex;
+  justify-content: end;
+  width: 50%;
+}
+
+.home__image {
+  width: 90%;
+}
+
+.home__trailer-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+}

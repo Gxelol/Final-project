@@ -1,0 +1,165 @@
+.agent__container {
+  display: flex;
+  flex-direction: column;
+  height: 180vh;
+}
+
+.agent {
+  display: flex;
+  height: 120vh;
+  gap: 5px;
+  color: #ffffff;
+  padding-top: 100px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.agent__image {
+  color: #ffffff;
+  width: 60%;
+  position: absolute;
+  top: 3%;
+  left: 20%;
+  pointer-events: none;
+}
+
+.agent__names {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.agent__names::-webkit-scrollbar {
+  display: none;
+}
+
+.agent__name {
+  text-align: left;
+  font-size: 90px;
+  font-weight: bold;
+  background: none;
+  color: #ffffff;
+  list-style: none;
+  border-style: none;
+  cursor: pointer;
+  transition: 600ms ease-in-out;
+  position: relative;
+}
+
+.agent__name:hover {
+  transform:translate(5%);
+  opacity: 0.7;
+}
+
+.agent__role-container {
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  text-align: left;
+  width: 30%;
+  margin-bottom: 15%;
+}
+
+.agent__role {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+
+.agent__role-text {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.agent__role-icon {
+  width: 10%;
+}
+
+.agent__history {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  gap: 20px;
+}
+
+.agent__history-text {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.agent__history-icon {
+  width: 10%;
+}
+
+.agent__description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.agent__division {
+  background: #ffffff;
+  width: 80%;
+  height: 1px;
+  position: absolute;
+  top: 125%;
+}
+
+.agent__abilities-container {
+  margin-top: 5%;
+  height: 35%;
+}
+
+.agent__abilities-title {
+  margin-top: 5%;
+  font-size: 36px;
+}
+
+.agent__abilities-content {
+  margin-top: 2%;
+  width: 30%;
+}
+
+.agent__ability-button {
+  background: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+.agent__ability-icon {
+  width: 40px;
+}
+
+.agent__ability__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.agent__ability__title {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  line-height: 1.5;
+}
+
+.agent__ability__description {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
