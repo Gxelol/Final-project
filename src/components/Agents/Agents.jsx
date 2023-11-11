@@ -148,30 +148,32 @@ export default function Agents(props) {
             alt="jett"
           />
           <div className="agent__role-container">
-            <div className="agent__role">
-              <p className="agent__role-text">
-                Role: {agentRole || "Initiator"}
+            <div className="agent__role-content">
+              <div className="agent__role">
+                <p className="agent__role-text">
+                  Role: {agentRole || "Initiator"}
+                </p>
+                <img
+                  className="agent__role-icon"
+                  src={
+                    agentRoleIcon ||
+                    "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
+                  }
+                  alt="role icon"
+                />
+              </div>
+              <p className="agent__description">
+                {agentRoleDescription ||
+                  "Initiators challenge angles by setting up their team to enter contested ground and push defenders away."}
               </p>
-              <img
-                className="agent__role-icon"
-                src={
-                  agentRoleIcon ||
-                  "https://media.valorant-api.com/agents/roles/1b47567f-8f7b-444b-aae3-b0c634622d10/displayicon.png"
-                }
-                alt="role icon"
-              />
             </div>
-            <p className="agent__description">
-              {agentRoleDescription ||
-                "Initiators challenge angles by setting up their team to enter contested ground and push defenders away."}
-            </p>
             <div className="agent__history">
               <p className="agent__history-text">Biography</p>
+              <p className="agent__description">
+                {agentDescription ||
+                  "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again."}
+              </p>
             </div>
-            <p className="agent__description">
-              {agentDescription ||
-                "Gekko the Angeleno leads a tight-knit crew of calamitous creatures. His buddies bound forward, scattering enemies out of the way, with Gekko chasing them down to regroup and go again."}
-            </p>
           </div>
         </div>
         <div className="agent__division"></div>
@@ -188,7 +190,7 @@ export default function Agents(props) {
             </thead>
             <tbody>
               <tr className="agent__abilities">
-                <td>
+                <td className='agent__ability-item'>
                   <button
                     className="agent__ability-button"
                     onClick={handleChangeAbilities}
@@ -203,7 +205,7 @@ export default function Agents(props) {
                     />
                   </button>
                 </td>
-                <td>
+                <td className='agent__ability-item'>
                   <button
                     className="agent__ability-button"
                     onClick={handleChangeAbilities}
@@ -218,7 +220,7 @@ export default function Agents(props) {
                     />
                   </button>
                 </td>
-                <td>
+                <td className='agent__ability-item'>
                   <button
                     className="agent__ability-button"
                     onClick={handleChangeAbilities}
@@ -233,7 +235,7 @@ export default function Agents(props) {
                     />
                   </button>
                 </td>
-                <td>
+                <td className='agent__ability-item'>
                   <button
                     className="agent__ability-button"
                     onClick={handleChangeAbilities}
@@ -252,8 +254,8 @@ export default function Agents(props) {
             </tbody>
           </table>
           <div className="agent__ability__content">
-            <p className="agent__ability__title">{agentAbility || "Dizzy"}</p>
-            <p className="agent__ability__description">
+            <p className="agent__ability-title">{agentAbility || "Dizzy"}</p>
+            <p className="agent__ability-description">
               {agentAbilityDescription ||
                 "EQUIP Dizzy. FIRE to send Dizzy soaring forward through the air. Dizzy charges then unleashes plasma blasts at enemies in line of sight. Enemies hit by her plasma are Blinded. When Dizzy expires she reverts into a dormant globule. INTERACT to reclaim the globule and gain another Dizzy charge after a short cooldown."}
             </p>
