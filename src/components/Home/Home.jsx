@@ -9,19 +9,19 @@ export default function Home(props) {
             <div className="home__content">
               <h2 className="home__title">HOME</h2>
               <p className="home__text">
-                <strong>Valorant</strong> é um jogo de tiro tático em primeira
-                pessoa grátis para jogar, sendo desenvolvido e publicado pela a
-                Riot Games. O jogo atualmente roda na Unreal Engine 4. O jogo
-                foi anunciado no dia 15 de outubro de 2019, com o codenome
-                "Project A", até que foi oficialmente revelado como Valorant em
-                2 de março de 2020. 
+                <strong>Valorant</strong> is a free-to-play
+                first-person tactical shooter game developed and published by
+                Riot Games. The game currently runs on the Unreal Engine 4. It
+                was announced on October 15, 2019, under the codename "Project
+                A," until it was officially revealed as Valorant on March 2,
+                2020.
                 <br />
-                Esse site foi criado no intuito de informar
-                jogadores sobre os agentes, armas e mapas disponíveis no jogo. É
-                um projeto pessoal e não tem vinculação com a empresa
-                desenvolvedora do jogo. Se quiser se informar sobre algum dos
-                conteúdos citados aqui, apenas clique no desejado na barra de
-                tarefas e você será redirecionado para a página de informações.
+                This website was created with the intention of informing players
+                about the agents, weapons, and maps available in the game. It is
+                a personal project and is not affiliated with the game's
+                developer company. If you wish to find information about any of
+                the content mentioned here, simply click on the desired item in
+                the taskbar, and you will be redirected to the information page.
               </p>
             </div>
             <div className="home__image-container">
@@ -32,8 +32,6 @@ export default function Home(props) {
             <h2 className="home__title">TRAILER</h2>
             <iframe
               className="home__trailer"
-              width="672"
-              height="378"
               src="https://www.youtube.com/embed/h1Kp9x_ADZw?si=Wh1ll6I-5_Xzkoid"
               title="YouTube video player"
               frameBorder="0"
