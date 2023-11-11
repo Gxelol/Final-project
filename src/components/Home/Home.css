@@ -38,6 +38,8 @@
 }
 
 .home__trailer-container {
+  width: 672px;
+  height: 378px;
   display: flex;
   flex-direction: column;
   margin-top: 5%;
