@@ -19,6 +19,7 @@
 .navbar__text {
   font-size: 16px;
   text-decoration: none;
+  color: #111111;
 }
 
 .navbar__element:hover {
