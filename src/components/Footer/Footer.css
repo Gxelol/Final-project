@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+  background: #ece8e1;
+  padding: 0 10%;
+}
+
+.footer__autor {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer__title {
+  font-size: 24px;
+  font-weight: bold;
+}
