@@ -1,0 +1,16 @@
+@import url(./vendor/normalize.css);
+@import url(./blocks/root/root.css);
+@import url(./fonts/InterWeb/inter.css);
+@import url(./blocks/container/container.css);
+@import url(./blocks/container/__semitransparent/container__semitransparent.css);
+@import url(./blocks/container/__semitransparent/_active/container__semitransparent_active.css);
+@import url(./blocks/page/page.css);
+@import url(./blocks/copyright/copyright.css);
+@import url(./components/App/App.css);
+@import url(./components/Header/Header.css);
+@import url(./components/Home/Home.css);
+@import url(./components/Agents/Agents.css);
+@import url(./components/Weapons/Weapons.css);
+@import url(./components/Maps/Maps.css);
+@import url(./components/Footer/Footer.css);
+@import url(./components/NavBar/NavBar.css);
