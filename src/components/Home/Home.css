@@ -29,17 +29,21 @@
 
 .home__image-container {
   display: flex;
-  justify-content: end;
-  width: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
 }
 
 .home__image {
-  width: 100%;
+  object-fit: contain;
+  width: 50%;
+  height: 50%;
 }
 
 .home__trailer-container {
   display: flex;
   flex-direction: column;
+  margin-top: 5%;
 }
 
 .home__trailer {

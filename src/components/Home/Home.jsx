@@ -1,4 +1,4 @@
-import valorantLogo from "../../images/valorant-logo-removebg-preview.png";
+import valorantLogo from "../../images/valorant-logo_home.svg";
 
 export default function Home(props) {
   return (

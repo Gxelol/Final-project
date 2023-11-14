@@ -1,5 +1,5 @@
 import NavBar from "../NavBar/NavBar";
-import valorantHeaderLogo from "../../images/valorant-logo.webp";
+import valorantHeaderLogo from "../../images/valorant-logo.svg";
 
 import { NavLink } from "react-router-dom";
 
